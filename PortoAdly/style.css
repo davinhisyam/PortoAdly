@@ -6,11 +6,13 @@
     text-decoration: none;
     list-style: none;
 }
-.body{
+
+body{
     background-color: #081e25;
     width: 100%;
     
 }
+
 .header{
     position: fixed;
     top: 0;
@@ -34,7 +36,7 @@
 
 .logo:hover{
     color: #BCA37F;
-    text-shadow: 0 0 25px #BCA37F, 0 0 50px #BCA37F;
+    text-shadow: 0 0 25px #BCA37F;
     transform: scale(1.1);
 }
 
@@ -51,4 +53,101 @@
 .navbar a:active{
     color: #BCA37F;
     border-bottom: 3px solid #EAD7BB;
+}
+
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: #081e25;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 150px 12% 0px;
+}
+
+.home-utama{
+    max-width: 100%;
+    color: white;
+}
+
+.home-utama h3{
+    font-size: 24px;
+}
+
+.home-utama h1{
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.home-utama p{
+    font-size: 15px;
+    margin: 25px 0 30px;
+}
+
+.btn-box{
+    display: flex;
+}
+
+.btn-1{
+    padding: 10px 20px;
+    background-color: rgb(17, 57, 70);
+    color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-1:hover{
+    background-color: white;
+    color: rgb(17, 57, 70);
+}
+
+.img-box img{
+    border-radius: 50%;
+    width: 550px;
+    float: right;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #BCA37F;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50px;
+}
+
+.wa{
+    font-size: 40px;
+    padding-left: 20px;
+    color: white;
+}
+
+.ig{
+    font-size: 40px;
+    padding-left: 20px;
+    color: white;
+}
+
+.dl{
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.cv{
+    color: white;
+    transition: 0.3s ease;
+}
+
+.cv:hover{
+    color: #BCA37F;
+    transform: scale(1.1);
 }
