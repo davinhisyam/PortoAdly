@@ -153,6 +153,7 @@ body{
 }
 
 .pex{
+    
     height: 350px;
     width: 400px;
     padding-top: 20px;
@@ -160,11 +161,15 @@ body{
 }
 .despo{
     text-align: left;
-    padding-left: 50px;
-    padding-top: 15px;
+    padding-left: 90px;
+    padding-top: 70px;
+}
+.phot{
+    padding-bottom: 20px;
 }
 
 .sec2{
+    padding-top: 85px;
     max-width: 100%;
     color: white;
     display: flex;
@@ -174,10 +179,11 @@ body{
 
 .judul2{
     padding-left: 13%;
+    padding-top: 75px;
     color: white;
 }
 .myex{
-    padding-top: 70px;
+    padding-top: 100px;
 }
 
 .footer{
